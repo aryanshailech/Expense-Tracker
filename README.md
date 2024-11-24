@@ -46,23 +46,24 @@ To view all expenses, select option 2, and the system will display all saved exp
 ## Data Storage Format
 The expenses are saved in the expenses.txt file in the following format:
 
-yaml
-Copy code
+
 Amount, Category, Date, Description
+
 50.0, Food, 2024-11-22, Dinner at restaurant
+
 25.5, Transport, 2024-11-20, Bus fare
 
 Each expense is stored on a new line in the file, and the values are separated by commas.
 
 Example File (expenses.txt):
-yaml
-Copy code
 50.0, Food, 2024-11-22, Dinner at restaurant
+
 25.5, Transport, 2024-11-20, Bus fare
+
 100.0, Entertainment, 2024-11-21, Movie tickets
 
 ## Technologies Used
-- **Java 8+:** Core programming language used for building the application.
+- **Java 21:** Core programming language used for building the application.
 - **File I/O:** Java File Input/Output (I/O) is used for reading and writing data to a file (expenses.txt).
 - **Console I/O:** Standard input and output for user interaction.
   

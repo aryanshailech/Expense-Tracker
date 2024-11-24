@@ -12,6 +12,27 @@ The Expense Tracker is a Java-based console application that helps users manage 
 - **Category-based Expense Filtering**: Users can view expenses based on a selected category.
 - **Persistent Storage**: All expenses are saved in a file, so they persist between sessions.
 
+### Example Usage
+--- Personal Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. Delete Expense
+4. Search Expense by ID
+5. Calculate Total Expenses
+6. Show Month-Wise Expenses
+7. Save and Exit
+Enter your choice: 1
+
+Enter date (YYYY-MM-DD): 2024-11-24
+
+Enter category: Food
+
+Enter amount: 50.75
+
+Enter description: Lunch at a restaurant
+
+Expense added successfully!
+
 ## Requirements
 - **Java 8 or higher**: The application is built using Java and requires Java version 8 or later to run.
 - **JDK**: Java Development Kit (JDK) installed on your system.
